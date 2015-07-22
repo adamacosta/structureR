@@ -1,0 +1,17 @@
+Package: structureR
+Title: Advanced Data Structures for R
+Version: 0.0.0.9000
+Authors@R: person("Adam", "Acosta", email = "adam.acosta@gatech.edu",
+                  role = c("aut", "cre"))
+URL: http://github.com/adamacosta/structureR
+BugReports: https://github.com/adamacosta/structureR/issues
+Description: Provides some of the familiar data structures and associated
+    algorithms from other language, including stacks, queues, hash tables,
+    binary trees, heaps, and graphs.
+Depends: R (>= 3.2.1)
+Imports:
+    Rcpp
+Suggests:
+    testthat
+License: GPL-3
+LazyData: true
